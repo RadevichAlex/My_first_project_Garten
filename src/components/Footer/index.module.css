@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 170px 50px 0 50px;
+    color: #000;
+}
+
+.contact h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 25px 0;
+}
+
+.contact p{
+    font-weight: 600;
+    font-size: 70px;
+    margin: 30px 0;
+}
+
+.contact_block {
+    display: flex;
+    gap: 35px;
+    margin: 30px 0 70px 0;
+}
+
+.contact_block p{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.address {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 25px 0;
+}
+
+.street {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.working_mode {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.round_the_clock {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 90px;
+}

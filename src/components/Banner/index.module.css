@@ -1,0 +1,42 @@
+.banner_section {
+  background-color: #A1E3EB;
+}
+
+.banner_sub_section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.banner_block {
+  color: #fff;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 104px;
+  margin: 130px 0 60px 50px;
+}
+
+.banner_btn {
+  display: flex;
+  gap: 70px;
+  margin: 50px 0;
+}
+
+.banner_btn button {
+  width: 241px;
+  height: 82px;
+  background-color: transparent;
+  padding: 25px 50px;
+  border: 2px solid #fff;
+  border-radius: 13px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+  color:  #fff;
+}
+
+.banner_btn button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #2D2D2D;
+}

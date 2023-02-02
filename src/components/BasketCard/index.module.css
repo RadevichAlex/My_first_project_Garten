@@ -1,0 +1,93 @@
+.basket_block {
+    display: flex;
+}
+
+.img_block {
+    position: relative;
+}
+
+.img_block img{
+    width: 193px;
+    height: 167px;
+    margin-left: 30px;
+    border-radius: 17px;
+}
+
+.img_block button {
+    border: transparent;
+    background-color: transparent;
+    position: absolute;
+    right: -630px;
+    top: -10px;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.price_block {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000;
+    position: absolute;
+    right: -470px;
+    top: 55px;
+}
+
+.count_block {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-decoration-line: line-through;
+    color: #8B8B8B;
+    position: absolute;
+    right: -550px;
+    top: 70px;
+}
+
+.border_p {
+    border: 1px solid #A7A7A7;
+    width: 825px;
+    margin: 40px 60px 40px 30px;
+}
+
+.title_block p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #3A3A3A;
+    margin: 5px 45px 70px 30px;
+}
+
+.btn {
+    border: 1px solid #000;
+    border-radius: 12px;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000;
+    margin: 87px 0 5px 30px;
+}
+
+.btn button {
+    font-size: 30px;
+}
+
+.increment {
+    padding-bottom: 5px;
+}
+
+.btn button {
+    width: 50px;
+    background-color: transparent;
+    border-color: transparent;
+}

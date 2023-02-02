@@ -1,0 +1,24 @@
+.category_block {
+    
+}
+
+.card_block {
+    text-decoration: none;
+}
+
+.card_block img {
+    width: 350px;
+    height: 310px;
+    object-fit: cover;
+}
+
+.card_block p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
